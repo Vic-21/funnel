@@ -1,8 +1,18 @@
-* {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+h1{
+  text-align: center;
+    font-family: 'Lucida Sans';
+}
+h2{
+    text-align: center ;
+    font-family: Arial;
+
+}
+p{
+    font-family:Helvetica;
+    text-align: center;
 }
 body{
-    background-color: gray;
+    background-color: rgb(219, 20, 20);
 }
 #cabecera{
     padding: 20px 20px 20px 20px;
@@ -29,10 +39,11 @@ body{
 
 .action-button{
     padding: 15px;
-    background-color: #8ed348;
+    background-color: #24b4d8;
     border-radius: 10px;
     color: #ffffff;
     margin:20px;
+    font-family: Arial black;
 }
 .action-button:hover{
     padding: 15px;
@@ -43,11 +54,12 @@ body{
 #footer{
     position: fixed;
     display: flex;
-    margin-top:20px;
+    margin-top: 5px;
     width: 100%;
-    background-color: darkgrey;
+    background-color: rgb(44, 46, 192);
     color:#ffffff;
-    padding: 20px;
+    padding: 5px;
     left:0px;
     bottom: 0px;
+
 }
