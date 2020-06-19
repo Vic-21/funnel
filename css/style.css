@@ -7,6 +7,11 @@ h2{
     font-family: Arial;
 
 }
+h3{
+    text-align: center ;
+    font-family: Arial;
+    color: aqua;
+}
 p{
     font-family:Helvetica;
     text-align: center;
@@ -34,7 +39,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 900px;
+    height: 1800px;
 }
 
 .action-button{
@@ -48,6 +53,20 @@ body{
 .action-button:hover{
     padding: 15px;
     background-color: #9f2e2a;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.action-button2{
+    padding: 15px;
+    background-color: #9624d8;
+    border-radius: 10px;
+    color: #ffffff;
+    margin:20px;
+    font-family: Arial black;
+}
+.action-button2:hover{
+    padding: 15px;
+    background-color: #3bd6d6;
     border-radius: 10px;
     color: #ffffff;
 }
